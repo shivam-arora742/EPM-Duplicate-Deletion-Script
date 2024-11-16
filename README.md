@@ -18,8 +18,9 @@ This repository contains a script designed to identify and remove duplicate entr
 - Administrative access to the CyberArk EPM system for script execution.
   
 # Usage
+- Generate Endpoint Report & filter duplicate entries in :  hostname.csv
 - To run the script, execute the following command: python epm_duplicate_deletion.py
-Ensure you have the necessary permissions and that any relevant configuration files are set up before execution.
+- Ensure you have the necessary permissions and that any relevant configuration files are set up before execution.
 
-Contributing
+# Contributing
 Contributions are welcome! Feel free to submit pull requests or open issues for improvements, bug fixes, or questions.
