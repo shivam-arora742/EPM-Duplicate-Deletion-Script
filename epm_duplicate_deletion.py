@@ -21,7 +21,7 @@ password = maskpass.askpass(prompt=' Enter Password : ', mask="*")
 csv_path=input(' Enter CSV Path : ')
 
 # EPM Console URL:
-url="https://in.epm.cyberark.com"
+url="EPM_URL"
 
 
 # Chrome Driver:
@@ -43,7 +43,7 @@ try :
     
     # Set Selection
     sleep(4)
-    WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH,'//*[@title="Airtel_Production(bharti airtel limited ibm so account)"]'))).click()
+    WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH,'//*[@title="Set_Title"]'))).click()
 
     # Go to Endpoints -> My Computers :
     sleep(2)
@@ -320,11 +320,11 @@ try :
                 continue 
    # Additional sleep to keep the screen awake:
     sleep(5)
-    print("\n Thank You !!! \t Duplicates have been deleted sucessfully . \n You may close the window now.... \tCreated by: Shivam Arora , AUUID - 23168324 \n")
+    print("\n Thank You !!! \t Duplicates have been deleted sucessfully . \n You may close the window now.... \tCreated by: Shivam Arora \n")
     
     # Exception Handling
 except Exception as e:
-    print(f"\n Script encountered an error !!  Please check the code  & run the script again .\n In case of any help , kindly connect with script developer : Shivam Arora , AUUID : 23168324  \n") 
+    print(f"\n Script encountered an error !!  Please check the code  & run the script again .\n In case of any help , kindly connect with script developer : Shivam Arora \n") 
     # print(e)
 
 # Default Case:
